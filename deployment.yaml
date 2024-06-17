@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: simple-echo
-          image: nginx:1.16.0
+          image: wongil/simple-echo:latest
           ports:
             - containerPort: 80
